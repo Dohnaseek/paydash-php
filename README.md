@@ -38,6 +38,14 @@ $paydash->setMetaData("Hello :D");
 $x = $paydash->execute();
 
 print_r($x);
+
+// Returns the token of the transaction. $x = XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX
+// Then you can redirect the customer to https://paydash.co.uk/checkout/{token}
+// If something goes wrong it will throw an exception. Use a try catch block for better usage.
+
+// header("Location: https://paydash.co.uk/checkout/$x");
+// exit;
+
 ```
 
 ## Notes
