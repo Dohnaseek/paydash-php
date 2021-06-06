@@ -1,0 +1,30 @@
+{
+    "name": "dohnaseek/paydash-php",
+    "type": "library",
+    "description": "PayDash.co.uk PHP Client",
+    "keywords": ["paydash","client","finance"],
+    "homepage": "https://github.com/Dohnaseek",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dohnaseek\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dohnaseek",
+            "email": "dohnaseek@flareco.net",
+            "homepage": "https://www.flareco.dev",
+            "role": "Developer"
+        },
+        {
+            "name": "FlareCO",
+            "email": "me@flareco.net",
+            "homepage": "https://www.flareco.dev",
+            "role": "Developer"
+        }
+    ]
+}
