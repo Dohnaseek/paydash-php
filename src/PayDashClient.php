@@ -14,6 +14,14 @@ class PayDashClient {
     function __construct($apiKey){
         $this->PayDashApiKey = $apiKey;
     }
+    
+    function setALL($amount, $ipn, $returnURL, $customerEmail, $metadata){
+        $this->PayDashAmount = $amount;
+        $this->PayDashIPN = $ipn;
+        $this->PayDashReturnURL = $returnURL;
+        $this->PayDashCustomerEmail = $customerEmail;
+        $this->PayDashMetaData = $metadata;
+    }
 
     function setAmount($amount){
         $this->PayDashAmount = $amount;
